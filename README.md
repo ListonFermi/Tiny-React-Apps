@@ -1,12 +1,13 @@
-# Tiny-React-Creations
+# Tiny-React-Apps
+
 Mar2024: Small miniatures I've done using react, while learning.
 
-The one's numbered between 1 and 20 are done by following the 'Bro Code- React Full Course for free ⚛️ (2024)' tutorial on youtube : https://youtu.be/CgkZ7MvWUAA?si=087z6K8Jqk2yYei9
+To-Do List : https://tinyreactapps-todolist.onrender.com
 
-To-Do List : 
+Digital Clock: https://tinyreactapps-digitalclock.onrender.com
 
-Digital Clock: 
+Stopwatch : https://tinyreactapps-stopwatch.onrender.com
 
-Stopwatch : 
-
-
+<p>The one's numbered between 1 and 20 are done by following the 
+<a href="https://youtu.be/CgkZ7MvWUAA?si=087z6K8Jqk2yYei9" >'Bro Code- React Full Course for free ⚛️ (2024)' </a>
+</p>
