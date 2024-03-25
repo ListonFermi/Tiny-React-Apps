@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stopwatch-container{
+  border: 2px solid black;
+  height: 500px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.stopwatch{
+  font-size: 10rem;
+  font-family: monospace;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons button{
+  width: 200px;
+  padding: 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  box-shadow: 2px 2px 2px 2px black;
+  transition: 0.3s;
+}
+
+.buttons button:hover{
+  cursor: pointer;
+}
+
+.buttons button:nth-child(1){
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  
+}
+
+.buttons button:nth-child(1):hover{
+  background-color: white;
+  color: green;
+}
+
+.buttons button:nth-child(2){
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.buttons button:nth-child(2):hover{
+  background-color: white;
+  color: red;
+}
+
+.buttons button:nth-child(3){
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.buttons button:nth-child(3):hover{
+  background-color: white;
+  color: blue;
+}
