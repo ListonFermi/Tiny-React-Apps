@@ -1,0 +1,9 @@
+.btn2{
+    color: rgb(255, 77, 0);
+    background-color: rebeccapurple;
+    padding: 20px;
+    border: rgba(0, 0, 0, 0.27) solid 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rebeccapurple;
+    cursor: pointer;
+  }
