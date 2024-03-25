@@ -1,0 +1,28 @@
+body{
+  background-image: url('windowsXPWallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+
+  /* Centering */
+  display: flex;
+  justify-content:center ;
+  min-height: 100vh;
+  max-height: 100vh;
+  min-width: 100vw;
+  max-width: 100vw;
+  align-items: center;
+}
+
+.clock-container{
+  backdrop-filter: blur(2px);
+}
+
+.clock{
+  font-size: 10rem;
+  font-family: monospace, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
