@@ -56,7 +56,7 @@ function ToDoList() {
                 <table className="tableContainer">
                     {tasks.map((task, index) => {
                         return (
-                            <tr >
+                            <tr key={index} >
                                 <td className="tasks">{index + 1 + '.'}</td>
                                 <td className="tasks">{task}</td>
                                 <td className="tasks tasks-btn" onClick={moveUpHandler.bind(null, index)}>🔼</td>
